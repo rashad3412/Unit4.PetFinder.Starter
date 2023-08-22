@@ -54,5 +54,5 @@ app.get("/api/v1/pets/:name", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log("Server is listening on port " + PORT);
+  console.log("Servers is listening on port " + PORT);
 });
